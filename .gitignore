@@ -1,6 +1,12 @@
-# Ignore Terraform directories
+# Terraform directories
 .terraform/
 
-# Ignore Terraform state files
+# Terraform state files
 *.tfstate
 *.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Sensitive files
+*.tfvars
